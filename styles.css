@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-color: rgb(32,33,36);
+    background-color: rgb(32, 33, 36);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -17,18 +17,23 @@ header {
     justify-content: right;
 }
 
-header .nav-right-section a {
-    color: aliceblue;
+a {
     text-decoration: none;
-    margin:0 5px;
+    color: aliceblue;
 }
 
-.nav-right-section {
+li {
+    list-style: none;
+}
+
+header .nav-right-section a {
+    margin: 0 5px;
+}
+
+header .nav-right-section {
     width: 300px;
     height: auto;
     padding-right: 10px;
-    
-    list-style: none;
 
     display: flex;
     align-items: center;
@@ -36,8 +41,7 @@ header .nav-right-section a {
 }
 
 .waffle-icon {
-    background-image: url("https://s10.aconvert.com/convert/p3r68-cdx67/aj8hy-bu5l7-001.ico");
-    background-repeat: no-repeat;
+    background-image: url("https://i.postimg.cc/kMVPmdZN/black-waffle.png");
     background-position: center;
     background-size: contain;
 
@@ -48,4 +52,98 @@ header .nav-right-section a {
 
 nav .nav-right-section img {
     border-radius: 50%;
+}
+
+main {
+    margin-top: 180px;
+    text-align: center;
+}
+
+main .main-logo {
+    filter: brightness(0) invert(1);
+    margin: 0 auto 25px;
+
+}
+
+main .main-input {
+    width: 530px;
+
+    margin: 0 auto 32px;
+}
+
+main .main-input-container {
+    width: 560px;
+    height: 45px;
+
+    padding: 0 .25em;
+    margin-left: -20px;
+
+    border-radius: 100px;
+    border: solid 1px rgba(169, 169, 169, 0.4);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 460px;
+    height: auto;
+
+    border: none;
+    outline: none;
+
+    background-color: rgb(32, 33, 36);
+    color: aliceblue;
+}
+
+main .main-input-container .search-icon {
+    filter: brightness(0) invert(1);
+
+    background-image: url('https://i.postimg.cc/KcTW5XYJ/lupa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 16px;
+    height: 16px;
+}
+
+main .main-input-container .voice-icon {
+    background-image: url('https://i.postimg.cc/6pqTDfgb/image-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 24px;
+    height: 24px;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 rgba(169, 169, 169, 0.2);
+}
+
+main .main-buttons button {
+    font-size: 14px;
+
+    background-color: rgba(48,49,52,255);
+    color: white;
+
+    padding: 10px 15px;
+    margin: 0 4px 12px;
+    border: 0;
+
+    border-radius: 5%;
+}
+
+main .language p {
+    font-size: 13px;
+
+    margin-top: 20px;
+
+    color: rgb(187, 187, 187);
+}
+
+main .language .link-language {
+    color: rgba(107,153,214,255);
 }
