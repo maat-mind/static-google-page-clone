@@ -57,6 +57,9 @@ nav .nav-right-section img {
 main {
     margin-top: 180px;
     text-align: center;
+
+    height: 68vh;
+    min-height: 20vh;
 }
 
 main .main-logo {
@@ -146,4 +149,24 @@ main .language p {
 
 main .language .link-language {
     color: rgba(107,153,214,255);
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(27, 27, 27);
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul .footer-item{
+    font-size: 14px;
+    color: rgb(169, 169, 169);
+    margin: 0 8px;
 }
